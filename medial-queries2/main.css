@@ -65,12 +65,14 @@ body {
 
   .a {
     height: 200px;
-    width: 100%;;
+    width: 100%;
+    ;
   }
 
   .b {
     height: 200px;
-    width: 74%;;
+    width: 74%;
+    ;
   }
 
   .c {
