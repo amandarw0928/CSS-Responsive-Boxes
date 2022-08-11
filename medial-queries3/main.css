@@ -31,7 +31,7 @@ aside {
   flex-grow: 1;
 }
 
-aside > div {
+aside>div {
   width: 29%;
   background-color: gray;
   margin: 1vw;
@@ -47,15 +47,18 @@ main {
   .wrapper {
     flex-direction: row;
   }
+
   aside {
     width: 80%;
     flex: 4;
     align-items: center;
     margin-right: 1em;
   }
-  aside > div {
+
+  aside>div {
     height: 10em;
   }
+
   main {
     flex: 2;
     margin: 3em;
