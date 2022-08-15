@@ -2,7 +2,12 @@ body {
   background: papayawhip;
 }
 
-header, main, .c, .d, .e, footer {
+header,
+main,
+.c,
+.d,
+.e,
+footer {
   border: 1px solid black;
   box-sizing: border-box;
 }
@@ -24,20 +29,23 @@ header, main, .c, .d, .e, footer {
   min-height: 70vh;
 }
 
-header, footer, aside, .wrapper  {
+header,
+footer,
+aside,
+.wrapper {
   flex-grow: 1;
   margin: .5em;
   max-height: 10vh;
 }
 
-aside  {
+aside {
   display: flex;
   justify-content: space-between;
   width: 90%;
   min-height: 20vh;
 }
 
-aside > div {
+aside>div {
   flex-grow: 10;
   margin: .5em;
 }
@@ -54,22 +62,29 @@ main {
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   header {
     width: 100%;
     min-height: 30vh;
   }
+
   .wrapper {
     justify-content: stretch;
     flex-basis: 70%;
     min-height: 60vh;
   }
+
   main {
     width: 100%;
     max-height: 30vh;
   }
-  .c, .d, .e {
+
+  .c,
+  .d,
+  .e {
     min-height: 25vh;
   }
+
   footer {
     flex-grow: 3;
     min-height: 60vh;
